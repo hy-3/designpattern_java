@@ -17,10 +17,6 @@ class Flight implements Command {
 			System.out.println("Waiting for landing.");
 		}
 	}
-
-	public void getReady() {
-		System.out.println("Ready for landing.");
-	}
 }
 
 class Runway implements Command {
